@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Rock Paper Scissor</h1>
+      <div class="choices">
+        <div class="choice" id="rock">
+            <img src="images\rock.jpeg">
+        </div>
+
+        <div class="choice" id="paper">
+            <img src="images\paper2.png">
+        </div>
+
+        <div class="choice" id="scissor">
+            <img src="images\scissor.jpeg">
+        </div>
+    </div>
+    <div class="computer" >
+        <h2 >Computer <br> chooses : <h2>
+            <!-- <select id="imageSelector" onchange="changeImage()">
+                <option value="images\rock.jpeg">Image 2</option>
+                <option value="images\paper2.png">Image 3</option>
+                <option value="images\scissor.jpeg">Image 2</option>
+              </select> -->
+              <img id="displayedImage" src="" alt="Selected Image">
+    </div>
+</div>
+<div class="score-board">
+    <div class="score">
+        <p id="user-score">0</p>
+        <p>You</p>
+    </div>
+    
+    <div class="score">
+        <p id="comp-score">0</p>
+        <p>Computer</p>
+    </div>
+</div>
+    
+    
+    <div class="message-container">
+        <p id="msg">Play against computer </p>
+    </div>
+
+    <script  src="game.js"></script> 
+</body>
+</html>
